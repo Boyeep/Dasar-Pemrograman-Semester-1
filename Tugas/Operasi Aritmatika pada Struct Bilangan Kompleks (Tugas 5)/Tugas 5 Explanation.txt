@@ -1,0 +1,3 @@
+Program ini dibuat untuk menghitung operasi bilangan kompleks dengan bahasa C. Struct Comp digunakan untuk menyimpan dua bagian bilangan kompleks: real (ril) dan imajiner (imag). Program memiliki empat fungsi: add, subtract, multiply, dan divide, masing-masing untuk menjumlahkan, mengurangkan, mengalikan, dan membagi dua bilangan kompleks sesuai rumus matematika.
+
+Fungsi PrintComp digunakan untuk mencetak bilangan kompleks dalam format (real ± imagi), dan PrintOp mencetak operasi lengkap seperti (a) + (b) = (hasil). Di dalam main, program meminta input real dan imajiner untuk bilangan kompleks a dan b, lalu langsung menampilkan hasil semua operasi. Kodenya simpel, jelas, dan fokus pada cara krja operasi bilangan kompleks.
