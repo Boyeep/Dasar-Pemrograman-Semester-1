@@ -1,0 +1,40 @@
+# Petunjuk Penggunaan
+
+## Ganjil
+Start program dengan mengcompile dan run file .exe
+Akan ada menu CLI, dengan 3 opsi
+[1] Data Entry
+[2] List
+[9] Exit
+Opsi 1 akan membuat entri baru, program akan meminta
+anda menginput nama, tanggal lahir, desa, dan kecamatan untuk
+data yang baru. Kemudian program akan menambahkan data baru
+ke file db.dat
+Nama dapat menerima input berisi spasi dengan syarat tidak overflow
+dengan maksimum 100 byte.
+Tanggal, bulan, dan tahun lahir menggunakan tipe data short.
+Desa dan kecamatan tidak dapat menerima input ber-spasi.
+
+Opsi 2 akan melist semua entri berdasarkan waktu ia ditambahkan
+ke database.
+
+Opsi 9 akan membuat anda keluar dari program.
+Opsi selain itu tidak valid tetapi tidak akan membuat program crash.
+
+## Genap
+Pastikan anda memiliki file db.dat dengan minimal header yang valid
+(4 byte pertama informasi banyak entri). Jika belum, masukkan data
+menggunakan program ganjil.
+Cukup run program dan program akan secara otomatis menampilkan entri
+yang sudah disortir berdasarkan nama dan tanggal lahir (tanggal secara
+leksikografis dan tanggal lahir berdasarkan yang paling lama ke yang
+paling baru).
+Selain itu program juga akan langsung menampilkan informasi entri
+yang merupakan sebuah duplikat, yakni jika terdapat dua data yang memiliki nama dan
+tanggal lahir sama.
+
+## Gabungan
+Merupakan program ganjil dengan tambahan fungsionalitas program genap.
+Di sini anda tetap bisa membuat entri dan melihat semua entri berdasarkan
+waktu ia ditambahkan. Anda juga bisa melihat entri yang disortir dengan
+opsi 3 dan mencari data-data duplikat dengan opsi 4.
